@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/**********************NavBar***************/
+#nav-bar{   
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+    color: white !important;
+    
+}
+#nav-bar ul li a:hover{
+color: #007bff!important;
+}
+.navbar{
+    background:black;
+   
+}
+.navbar-toggler{
+    border:none!important;
+}
+.nav-link{
+    color:#555 !important;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+}
+/**************************SLider**********************/
+#Slider{
+    width: 100%;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h1{
+    color: white;
+    font-size: 100px;
+}
+/*********************About************/
+#About{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+}
+#About .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content{
+    padding-top: 20px;
+}
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+    border-radius: 16px !important;
+}
+/************************************Services***************************/
+#Services {
+    background-color:black;
+    background-size: cover;
+    background-position:center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Services h1{
+    text-align:center ;
+    color: #efefef !important;
+    padding-bottom: 10px;
+
+}
+#Services h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.Services{
+    margin-top: 40px;
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding:10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;    
+}
+#Services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+    text-align: left;
+}
+#Services .col-md-3:hover{
+    background: #007bff;
+    color: black; 
+    cursor: pointer;
+    transition: 0.7s;
+}
+/*************************************Team***************************/
+#Team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+
+}
+ h1{
+    text-align: center;
+    color:white !important;
+    padding-bottom: 10px;
+}
+ h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+}
+
+.profile-pic{
+  margin-top: 25px;
+  background-color: black;
+  color: white;
+}
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.img-box img{
+    width: 80%;
+  height: 80%;
+}
+.profile-pic .img-box img{
+  filter: grayscale(1);
+  
+}
+.profile-pic .img-box img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: white !important;
+}
+.profile-pic h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.profile-pic p{
+    text-align: left;
+}
+#Team .fa{
+    height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background:white;
+    padding: 4px;
+    border-radius: 50%;
+}
+.img-box ul {
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+    opacity: 0;
+}
+
+.img-box ul li {
+    padding: 5px;
+    display: inline-block;
+
+}
+#Team .col-md-3:hover{
+    background-color:#007bff;
+}
+.img-box:hover ul{
+    opacity: 1;
+}
+.img-box ul , .img-box ul li {
+    transition:0.5s;
+}
+
+/***************************Promo*************************/
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/Galaxy.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding:100px;
+    font-family: sans-serif;
+    font-size: 38px;    
+}
+/****************************Price Plan***********************/
+#price{
+    padding: 40px 0;
+    background: black;
+  
+}
+.single-price{
+    
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color:black;
+    transition: 0.5s;
+}
+.single-price:hover{
+    box-shadow: 0 2px 20px #007bff;
+}
+
+.price-head{
+    
+    background-color:white !important;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.price-head h2{
+    color:black !important;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.price-head p{
+    font-size: 25px;
+    color:black !important;
+    font-weight: bold;
+    line-height: 30px;
+}
+#price span{
+    font-size: 15px;
+}  
+.price-content{
+    border: 1px solid white;
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.price-content ul li{
+    border-bottom: 1px solid white;
+    padding: 15px 10px;
+    list-style: none;
+    color: white;
+}
+
+ul li:last-child{
+    border: none;
+}
+.fa-check-circle{
+    color:#007bff;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fa-times-circle{
+    color:rgb(245, 76, 76);
+    margin-right: 10px;
+    font-size: 20px;
+}  
+.price-button{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+    background-color: #2196f3;
+    border-radius: 3px;
+    font-size: 30px;
+    transition: 0.5s;
+   
+    
+}
+.price-button .buy-btn{
+
+    text-decoration: none;
+    color: white;
+}
+
+/***************************************Testimonials***********************************/
+#testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: black;
+    color: white;
+}
+#testimonials .row{
+    margin-top: 50px;
+}
+.col-md-4{
+    margin: 40px auto;
+}
+.profile{
+    padding: 70px 10px 10px;
+    background-color:black !important;
+    border: 1px solid white;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile img{
+  
+    top: -60px;
+    position: absolute;
+    left: calc(35%);
+    border: 2px solid white;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+}
+#testimonials span{
+    font-size: 12px;
+    color: wheat;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+}
+.profile:hover{
+    box-shadow: 0 0 25px 10px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/********************************Contact******************/
+#contact{
+    background: black !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder{
+    color: black !important;
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+    color: black !important;
+
+}
+.contact-info .fa{
+margin: 10px;
+color: #007bff;
+font-weight: bold;
+}
+/************Footer***************/
+#footer{
+    background:white !important;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
